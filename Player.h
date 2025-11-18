@@ -13,7 +13,7 @@ public:
 	void setKeys(const char* keys);
 	void setDir(Direction newDir) { dir = newDir; }
 	void move();
-	int getDirection(char key);
+	const int getDirection(char key);
 
 };
 
