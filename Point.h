@@ -1,4 +1,4 @@
-﻿#ifndef _POINT_H_
+#ifndef _POINT_H_
 #define _POINT_H_
 
 #include "io_utils.h"
@@ -38,10 +38,10 @@ public:
         cout << ' ';
     }
 
-    int getX() const {
+    const int getX() const {
         return x; 
     }
-    int getY() const {
+    const int getY() const {
         return y; 
     }
 };
