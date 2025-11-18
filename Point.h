@@ -38,10 +38,10 @@ public:
         cout << ' ';
     }
 
-    const int getX() const {
+    const int getX() {
         return x; 
     }
-    const int getY() const {
+    const int getY() {
         return y; 
     }
 };
