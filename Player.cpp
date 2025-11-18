@@ -14,7 +14,7 @@ void Player::move() {
 }
 
 
-int Player::getDirection(char key)
+const int Player::getDirection(char key)
 {
 	for (int i = 0; i < arrowKeysize; i++) {
 		if (std::tolower(key) == std::tolower(arrowKeys[i])) {
