@@ -1,0 +1,6 @@
+﻿  Game.cpp
+  Main.cpp
+C:\Users\LENOVO\Desktop\GameProject\GameProject\Main.cpp(2,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Player.cpp
+  Generating Code...
+  GameProject.vcxproj -> C:\Users\LENOVO\Desktop\GameProject\x64\Debug\GameProject.exe
